@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um relógio feito com HTML, CSS e Javascript.">
+    <meta author="Elton Santos">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Relógio Dinâmico JavaScript | Elton Santos</title>
+
+    <!-- Ícones (FontAwesome 4.7) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <!-- Estilo do nosso site -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ícone do Site -->
+    <link rel="icon" href="img/icon.png">
+    
+  </head>
+
+  <!-- Inseri uma ID para que o JavaScript o encontre o nosso 'body' facilmente -->
+  <body id="bg">
+
+    <!-- 
+      .container
+      
+      Aqui iremos organizar os elementos do nosso relógio
+      para que eles fiquem centralizados na página
+    -->
+    <div class="container">
+      
+      <!-- inicio: .mensagem -->
+      <div class="mensagem">
+      
+        <!-- Aqui vem o sprite do ícone de acordo com a classe definida -->
+        <div id="iconlogo"></div>
+        
+        <!-- Aqui diremos "bom dia", ou "boa tarde", ou "boa noite" -->
+        <p> <!-- MENSAGEM AQUI --> </p>
+      
+      </div>
+      <!-- fim: .mensagem -->
+
+      <!-- inicio: .relogio -->
+      <div class="relogio">
+
+        <p> <!-- RELÓGIO ATUAL AQUI --> </p>
+
+      </div>
+      <!-- fim: .relogio -->
+
+      <!-- inicio: .calendario -->
+      <div class="calendario">
+
+        <p> <!-- CALENDÁRIO ATUAL AQUI --> </p>
+
+      </div>
+      <!-- fim: .calendario -->
+
+      <!-- início: RODAPÉ -->
+      <footer>
+        <!-- Copyright com Ano Atualizado automaticamente pelo Javascript -->
+        <p class="copy">&copy; Elton Santos <span class="ano">20xx</span></p>
+        
+        <!-- Links para minhas redes sociais -->
+        <a href="https://wa.me/5585981017703" title="Mande uma mensagem pra mim" class="fa fa-whatsapp"></a>
+        <a href="https://instagram.com/eltin182" title="Siga meu instagram" class="fa fa-instagram"></a>
+        <a href="https://github.com/eltonsantos" title="Veja outros projetos" class="fa fa-github"></a>
+        <a href="https://linkedin.com/in/eltonmelosantos" title="Adicione o meu linkedin" class="fa fa-linkedin"></a>
+        <a href="https://youtube.com/c/eltonsantos_oficial" title="Conheça meu canal" class="fa fa-youtube"></a>
+      </footer>
+      <!-- fim: RODAPÉ -->
+
+    </div>
+    <!-- fim: .container -->
+
+    <!-- Acesse o arquivo de scripts para ver como as funções alteram o relógio -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
